@@ -4,16 +4,6 @@ import { PinContainer } from "./ui/Pin";
 import MagicButton from "./MagicButton";
 
 const RecentProjects = () => {
-  // Function to handle opening the link dynamically based on the clicked project
- const handleProjectClick = (link) => {
-  if (link) {
-    // Open the project link (PDF or webpage) in a new tab
-    window.open(link, "_blank");
-  } else {
-    console.error("The link is invalid or undefined.");
-  }
-};
-
   return (
     <div className="py-20">
       <h1 className="heading">
@@ -27,7 +17,12 @@ const RecentProjects = () => {
           <div
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw] cursor-pointer"
             key={item.id}
-            onClick={() => handleProjectClick(item.link)} // Pass the link dynamically from the projects array
+            onClick={() => {
+              // Open the project link (PDF or webpage) in a new tab
+              if (item.link) {
+                window.open(item.link, "_blank");
+              }
+            }}
           >
             <PinContainer title="View Docs">
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
@@ -69,21 +64,20 @@ const RecentProjects = () => {
           </div>
         ))}
       </div>
-      
+
       {/* Added centered button section */}
       <div className="w-full flex justify-center mt-16">
-        
-         <a 
-  href="https://www.instagram.com/kaleido.solutions/"
-  target="_blank" 
-  rel="noopener noreferrer"
->
-  <MagicButton
-    title="View Our Social Gallery"
-    icon={<FaLocationArrow />}
-    position="right"
-  />
-</a>
+        <a 
+          href="https://www.instagram.com/kaleido.solutions/"
+          target="_blank" 
+          rel="noopener noreferrer"
+        >
+          <MagicButton
+            title="View Our Social Gallery"
+            icon={<FaLocationArrow />}
+            position="right"
+          />
+        </a>
       </div>
     </div>
   );
