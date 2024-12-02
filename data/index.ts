@@ -73,29 +73,29 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Typography",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "Typography Suit",
+    des: "Explore the wonders of our creative profiles of typography",
     img: "/p1.png",
     link: "/2.pdf",  // Changed link to 1.pdf
   },
   {
     id: 2,
     title: "Rush Drink",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    des: "An epic showcase of our creative profiles of rush drink",
     img: "/p2.png",
     link: "/4.pdf",  // Changed link to 2.pdf
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "Eco Glow",
+    des: "Brand Identity of a beauty enhacing product, Eco glow",
     img: "/p3.png",
     link: "/3.pdf",  // Changed link to 3.pdf
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects.",
+    title: "Moroccan Sunset",
+    des: "A Spice fusion brand to elevate our culinary creations",
     img: "/p4.png",
     link: "/5.pdf",  // Changed link to 4.pdf
   },
@@ -227,16 +227,13 @@ export const workExperience = [
 ];
 
 export const socialMedia = [
-  {
-    id: 1,
-    img: "/git.svg",
-  },
-  {
-    id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
-    img: "/link.svg",
-  },
+ 
+  // {
+  //   id: 2,
+  //   img: "/twit.svg",
+  // },
+  // {
+  //   id: 3,
+  //   img: "/link.svg",
+  // },
 ];
