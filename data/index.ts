@@ -89,7 +89,7 @@ export const projects = [
     id: 3,
     title: "Logo Design",
     des: "Showcasing our clear, unique symbol showcasing your brand. The",
-    img: "/p3.png",
+    img: "/bur.png",
     link: "/logo.pdf",  // Changed link to 3.pdf
   },
   {
