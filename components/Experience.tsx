@@ -6,13 +6,10 @@ import MagicButton from "./MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
 
 const Experience = () => {
-  const handleProfileClick = () => {
-    // Open the profile PDF in a new tab
-    window.open("/profile.pdf", "_blank");
-  };
+
 
   return (
-    <div className="py-20 w-full">
+    <div className="py-20 pt-0 w-full">
       <h1 className="heading">
         Services by{" "}
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-purple-500 to-pink-500 font-bold">
@@ -35,11 +32,7 @@ const Experience = () => {
             className="flex-1 text-white dark:text-white border-neutral-200 dark:border-slate-800"
           >
             <div className="flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2">
-              <img
-                src={card.thumbnail}
-                alt={card.thumbnail}
-                className="lg:w-32 md:w-20 w-16"
-              />
+
               <div className="lg:ms-5">
                 <h1 className="text-start text-xl md:text-2xl font-bold">
                   {card.title}
@@ -55,9 +48,9 @@ const Experience = () => {
 
       {/* Centered button to open the profile PDF */}
       <div className="flex justify-center mt-10">
-        <a 
+        <a
           href="/ser.png"
-          target="_blank" 
+          target="_blank"
           rel="noopener noreferrer"
         >
           <MagicButton

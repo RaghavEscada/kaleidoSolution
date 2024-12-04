@@ -5,19 +5,17 @@ import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 
 const Approach = () => {
   return (
-    <section className="w-full py-20">
+    <section className="w-full pt-0 py-20">
       <h1 className="heading">
         Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-purple-500 to-pink-500 font-bold">Approach.</span>
       </h1>
       {/* remove bg-white dark:bg-black */}
-      <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
+      <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full ">
         {/* add des prop */}
         <Card
           title="Planning & Strategy"
           icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          des="We'll collaborate to define the goals, target audience, and key features of your project. Through in-depth discussions, we'll refine the project's structure, workflow, and content strategy to ensure a streamlined and impactful execution"
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -28,9 +26,7 @@ const Approach = () => {
         <Card
           title="Development & Progress Update"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, we cue my lofi playlist and dive into
-          crafting digital masterpiece for you. From initial sketches to polished stage of the process, We keep you updated
-          every step of the way."
+          des="We'll dive into the development phase, bringing your project to life with precision. Regular updates and transparent communication will keep you in the loop, ensuring we meet your expectations every step of the way."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -43,16 +39,11 @@ const Approach = () => {
             ]}
             dotSize={2}
           />
-          {/* Radial gradient for the cute fade */}
-          {/* remove this one */}
-          {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
           title="Development & Launch"
           icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved designs and intensive discussions, 
-          I'll translate everything into functional art and eye pleasing digital arts, building the service you requsted for
-          from the ground up."
+          des="We'll transform approved concepts into functional solutions, meticulously building your project from the ground up. As we move towards launch, expect seamless execution and timely updates, ensuring your vision is realized and delivered with excellence."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -61,7 +52,7 @@ const Approach = () => {
           />
         </Card>
       </div>
-    </section>
+    </section >
   );
 };
 
@@ -134,7 +125,7 @@ const Card = ({
         <p
           className="text-sm opacity-0 group-hover/canvas-card:opacity-100
          relative z-10 mt-4 group-hover/canvas-card:text-white text-center
-         group-hover/canvas-card:-translate-y-2 transition duration-200"
+         group-hover/canvas-card:-translate-y-2 transition duration-200 text-justify"
           style={{ color: "#E4ECFF" }}
         >
           {des}

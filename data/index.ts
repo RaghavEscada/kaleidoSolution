@@ -28,8 +28,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "Digital Presence.",
-    description: "Bespoke ",
+    title: "Bespoke.",
+    description: "Digital Presence which is",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -73,31 +73,31 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Typography Suit",
-    des: "Explore the wonders of our creative profiles of typography",
-    img: "/p1.png",
-    link: "/2.pdf",  // Changed link to 1.pdf
+    title: "Videography",
+    des: "Dive into the magic of our visionary videography, where creativity meets Cinematic Excellence!",
+    img: "/stb.png",
+    link: "https://linktr.ee/kaleidouk",  // Changed link to 1.pdf
   },
   {
     id: 2,
-    title: "Rush Drink",
-    des: "An epic showcase of our creative profiles of rush drink",
+    title: "Branding",
+    des: "An epic showcase of our creative profiles of Branding",
     img: "/p2.png",
-    link: "/4.pdf",  // Changed link to 2.pdf
+    link: "https://linktr.ee/kaleidoBranding",  // Changed link to 2.pdf
   },
   {
     id: 3,
-    title: "Eco Glow",
-    des: "Brand Identity of a beauty enhacing product, Eco glow",
+    title: "Logo Design",
+    des: "",
     img: "/p3.png",
     link: "/3.pdf",  // Changed link to 3.pdf
   },
   {
     id: 4,
-    title: "Moroccan Sunset",
-    des: "A Spice fusion brand to elevate our culinary creations",
-    img: "/p4.png",
-    link: "/5.pdf",  // Changed link to 4.pdf
+    title: "Website Design",
+    des: "Showcasing our creative profile of Web Designs",
+    img: "/web.png",
+    link: "https://linktr.ee/KaleidoWebDesigns",  // Changed link to 4.pdf
   },
 ];
 
@@ -154,7 +154,7 @@ export const companies = [
     id: 3,
  
     
-    nameImg: "/C.PNG",
+    nameImg: "/st.PNG",
   },
   {
     id: 4,
@@ -165,13 +165,13 @@ export const companies = [
     id: 5,
   
    
-    nameImg: "/E.PNG",
+    nameImg: "/kt.PNG",
   },
   {
     id: 6,
     
   
-    nameImg: "/f.PNG",
+    nameImg: "/ow.PNG",
   },
   {
     id: 7,
@@ -187,42 +187,42 @@ export const workExperience = [
     title: "Social Media Management",
     desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    
   },
   {
     id: 2,
     title: "Bespoke Website & App Development",
     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    
   },
   {
     id: 3,
     title: "Video & Content Creation ",
     desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    
   },
   {
     id: 4,
     title: "Photography & Graphic Designing",
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    
   },
   {
     id: 5,
     title: "Sales & Engagement Strategies",
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
-    thumbnail: "/exp2.svg",
+    
   },
   {
     id: 6,
     title: "Campaigns & Reviews",
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
-    thumbnail: "/exp3.svg",
+    
   },
 ];
 
