@@ -90,7 +90,7 @@ export const projects = [
     title: "Logo Design",
     des: "Showcasing our clear, unique symbol showcasing your brand. The",
     img: "/p3.png",
-    link: "/3.pdf",  // Changed link to 3.pdf
+    link: "/logo.pdf",  // Changed link to 3.pdf
   },
   {
     id: 4,
@@ -154,7 +154,7 @@ export const companies = [
     id: 3,
  
     
-    nameImg: "/st.PNG",
+    nameImg: "/STod.PNG",
   },
   {
     id: 4,

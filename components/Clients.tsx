@@ -11,7 +11,7 @@ const Clients = () => {
   const companies = [
     "/a.png",
     "/b.png",
-    "/st.png",
+    "/STod.png",
     "/d.png",
     "/kt.png",
     "/ow.png",

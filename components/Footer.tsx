@@ -26,7 +26,7 @@ const Footer = () => {
         </p>
 
         <a
-          href="https://tally.so/r/wL5Z9p"
+          href="https://tally.so/r/nr2jol"
           target="_blank"
           rel="noopener noreferrer"
           className="mt-5"
