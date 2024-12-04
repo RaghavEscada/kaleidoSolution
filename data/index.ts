@@ -82,7 +82,7 @@ export const projects = [
     id: 2,
     title: "Branding.",
     des: "An epic showcase of our creative profiles of Branding.",
-    img: "/p2.png",
+    img: "/ecolo.png",
     link: "https://linktr.ee/kaleidoBranding",  // Changed link to 2.pdf
   },
   {
