@@ -75,28 +75,28 @@ export const projects = [
     id: 1,
     title: "Videography.",
     des: "Discover visionary videography and cinematic excellence.",
-    img: "/bp.png",
+    img: "/bg.png",
     link: "https://linktr.ee/kaleidouk",  // Changed link to 1.pdf
   },
   {
     id: 2,
     title: "Branding.",
     des: "An epic showcase of our creative profiles of Branding.",
-    img: "/ecolo.png",
+    img: "/ecolow.png",
     link: "https://linktr.ee/kaleidoBranding",  // Changed link to 2.pdf
   },
   {
     id: 3,
     title: "Logo Design.",
     des: "Showcasing our clear, unique symbol showcasing your brand.",
-    img: "/osws.jpg",
+    img: "/owais.png",
     link: "/logo.pdf",  // Changed link to 3.pdf
   },
   {
     id: 4,
     title: "Website Design.",
     des: "Showcasing our creative profile of Web Designs.",
-    img: "/bty.png",
+    img: "/obs.png",
     link: "https://linktr.ee/KaleidoWebDesigns",  // Changed link to 4.pdf
   },
 ];
