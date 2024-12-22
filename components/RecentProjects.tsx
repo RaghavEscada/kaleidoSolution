@@ -34,7 +34,7 @@ const RecentProjects = () => {
                 </div>
                 <img
                   src={item.img}
-                  alt="cover"
+                  alt="Image is Loading"
                   className="z-10 absolute bottom-0"
                 />
               </div>
