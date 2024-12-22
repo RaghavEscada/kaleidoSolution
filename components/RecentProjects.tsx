@@ -7,7 +7,7 @@ const RecentProjects = () => {
   return (
     <div className="pt-0 py-20">
       <h1 className="heading">
-        A small selection of{" "}
+        A small selection of {" "}
         <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-purple-500 to-pink-500">
           Recent Projects.
         </span>
@@ -30,7 +30,7 @@ const RecentProjects = () => {
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
-                  <img src="/bg.png" alt="bgimg" className="w-full h-full object-cover" />
+                  <img src="" alt="bgimg" className="w-full h-full object-cover" />
                 </div>
                 <img
                   src={item.img}

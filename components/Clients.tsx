@@ -1,14 +1,14 @@
 "use client";
 
 import React from "react";
-import { companies, testimonials } from "@/data";
+import { testimonials } from "@/data";
 import { InfiniteMovingCards } from "./ui/InfiniteCards";
 
 const Clients = () => {
   const companies = [
     "/a.png",
     "/b.png",
-    "/STod.png",
+    
     "/d.png",
     "/kt.png",
     "/ow.png",
@@ -38,7 +38,7 @@ const Clients = () => {
     },
     {
       name: "Fasil",
-      role: "Account Executive",
+      role: "Accounts Executive",
       color: "#FF5100", // Aerospace orange
     },
   ];
@@ -48,13 +48,17 @@ const Clients = () => {
       <h1 className="heading">
         Kind words from
         <span className="text-transparent bg-clip-text bg-gradient-to-r pt-0 from-orange-500 via-purple-500 to-pink-500 font-bold">
-          Satisfied Clients.
+          &nbsp;Satisfied Clients.
         </span>
       </h1>
 
       <div className="flex flex-col pt-0 items-center max-lg:mt-10">
         <div className="h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased items-center justify-center relative overflow-hidden">
-          <InfiniteMovingCards items={testimonials} direction="right" speed="slow" />
+          <InfiniteMovingCards
+            items={testimonials}
+            direction="right"
+            speed="slow"
+          />
         </div>
       </div>
 
@@ -104,7 +108,7 @@ const Clients = () => {
           </span>
         </h1>
 
-        {/* Horizontal Scroll for Team with adjusted flex properties */}
+        {/* Horizontal Scroll for Team */}
         <div
           style={{
             display: "flex",
@@ -125,8 +129,8 @@ const Clients = () => {
                 flexDirection: "column",
                 justifyContent: "center",
                 alignItems: "center",
-                width: "250px", // Equal width for all cards
-                height: "250px", // Adjust height for a more balanced look
+                width: "250px",
+                height: "250px",
                 backgroundColor: member.color,
                 padding: "20px",
                 borderRadius: "12px",
@@ -136,22 +140,33 @@ const Clients = () => {
                 flexShrink: 0, // Prevent shrinking of the cards
               }}
             >
+              {/* Name Container */}
               <div
                 style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  height: "50px", // Uniform height for all names
                   fontSize: "1.25rem",
                   fontWeight: "500",
-                  color: "#FFD700", // Bright gold/yellow/ Darker, richer black for better contrast
+                  color: "#FFD700", // Bright gold/yellow
                   marginBottom: "10px",
                   transition: "color 0.3s ease",
                 }}
               >
                 {member.name}
               </div>
+
+              {/* Role Container */}
               <div
                 style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  height: "40px", // Uniform height for all roles
                   fontSize: "1.125rem",
                   fontWeight: "600",
-                  color: "#FFF5F5", // Very light with just a hint of warmth, // A bright warm off-white with a slight orange tint
+                  color: "#FFF5F5", // Very light with just a hint of warmth
                   letterSpacing: "0.5px",
                   textShadow: "1px 1px 3px rgba(0, 0, 0, 0.2)",
                   transition: "color 0.3s ease, text-shadow 0.3s ease",

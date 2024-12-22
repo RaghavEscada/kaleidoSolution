@@ -89,7 +89,7 @@ export const projects = [
     id: 3,
     title: "Logo Design.",
     des: "Showcasing our clear, unique symbol showcasing your brand.",
-    img: "/owais.png",
+    img: "/owis.png",
     link: "/logo.pdf",  // Changed link to 3.pdf
   },
   {
@@ -104,12 +104,7 @@ export const projects = [
 
 
 export const testimonials = [
-  {
-    quote:
-      "Working with Kaleido was an outstanding experience. Their creativity and attention to detail in the website development process were unmatched. From the initial concept to the final product, the team at Kaleido ensured that our online presence was elevated. If you're looking for a team that can truly enhance your brand, Kaleido is the one to partner with.",
-    name: "Stop Off Burger.",
-    title: "Owner, Stop Off Burger.",
-  },
+
   {
     quote:
       "Kaleido's digital marketing services transformed our online presence. Their professional approach to website development, combined with expert photography and editing, took our brand to new heights. The Kaleido team goes above and beyond, and we couldn't be happier with the results. Highly recommended for any business looking to shine online.",
@@ -150,31 +145,26 @@ export const companies = [
     
     nameImg: "/b.PNG",
   },
+  
   {
     id: 3,
- 
-    
-    nameImg: "/STod.PNG",
-  },
-  {
-    id: 4,
    
     nameImg: "/d.PNG",
   },
   {
-    id: 5,
+    id: 4,
   
    
     nameImg: "/kt.PNG",
   },
   {
-    id: 6,
+    id: 5,
     
   
     nameImg: "/ow.PNG",
   },
   {
-    id: 7,
+    id: 6,
    
     nameImg: "/G.PNG",
    
@@ -191,8 +181,8 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Bespoke Website & App Development",
-    desc: "Custom website and app development tailored to meet your business needs and enhance user experience.",
+    title:"Bespoke Website & App Development",
+    desc: " Custom website and app development tailored to meet your business needs and enhance user experience.",
     className: "md:col-span-2", // change to md:col-span-2
     
   },
