@@ -30,7 +30,7 @@ const RecentProjects = () => {
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
-                  <img src="" alt="bgimg" className="w-full h-full object-cover" />
+                  <img src="" className="w-full h-full object-cover" />
                 </div>
                 <img
                   src={item.img}
