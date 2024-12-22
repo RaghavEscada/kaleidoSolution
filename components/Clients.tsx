@@ -8,7 +8,6 @@ const Clients = () => {
   const companies = [
     "/a.png",
     "/b.png",
-    
     "/d.png",
     "/kt.png",
     "/ow.png",
@@ -119,6 +118,7 @@ const Clients = () => {
             alignItems: "center",
             flexWrap: "nowrap",
           }}
+          className="team-container"
         >
           {teamMembers.map((member, index) => (
             <div
