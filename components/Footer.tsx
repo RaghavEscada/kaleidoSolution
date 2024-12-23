@@ -1,4 +1,4 @@
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaLocationArrow, FaInstagram, FaFacebook, FaWhatsapp } from "react-icons/fa6";
 import MagicButton from "./MagicButton";
 
 const Footer = () => {
@@ -36,6 +36,20 @@ const Footer = () => {
             icon={<FaLocationArrow />}
             position="right"
           />
+        </a>
+      </div>
+
+      {/* Social Media Icons */}
+      <div className="flex mt-8 justify-center pt-10 space-x-6 relative z-10">
+        <a href="https://www.instagram.com/kaleido.solutions/" target="_blank" rel="noopener noreferrer">
+          <FaInstagram className="text-pink-500 w-6 h-6 md:w-7 md:h-7 hover:scale-110 transition-transform" />
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=61562421470111&mibextid=ZbWKwL
+" target="_blank" rel="noopener noreferrer">
+          <FaFacebook className="text-blue-600 w-6 h-6 md:w-7 md:h-7 hover:scale-110 transition-transform" />
+        </a>
+        <a href="https://wa.me/+447301281207?text=Hello!%20I%20would%20like%20to%20know%20more%20about%20your%20digital%20services." target="_blank" rel="noopener noreferrer">
+          <FaWhatsapp className="text-green-500 w-6 h-6 md:w-7 md:h-7 hover:scale-110 transition-transform" />
         </a>
       </div>
 
