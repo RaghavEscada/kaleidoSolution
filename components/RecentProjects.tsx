@@ -30,11 +30,11 @@ const RecentProjects = () => {
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
-                  <img src="" className="w-full h-full object-cover" />
+                  
                 </div>
                 <img
                   src={item.img}
-                  alt="Image is Loading"
+                  alt="Unveiling Kaleido Vibes..."
                   className="z-10 absolute bottom-0"
                 />
               </div>

@@ -43,16 +43,16 @@ const Clients = () => {
   ];
 
   return (
-    <section id="testimonials" className="pt-0 py-20">
+    <section id="clients" className="py-20">
+      {/* Testimonials Section */}
       <h1 className="heading">
         Kind words from
-        <span className="text-transparent bg-clip-text bg-gradient-to-r pt-0 from-orange-500 via-purple-500 to-pink-500 font-bold">
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-purple-500 to-pink-500 font-bold">
           &nbsp;Satisfied Clients.
         </span>
       </h1>
-
-      <div className="flex flex-col pt-0 items-center max-lg:mt-10">
-        <div className="h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased items-center justify-center relative overflow-hidden">
+      <div className="flex flex-col items-center max-lg:mt-10">
+        <div className="h-[50vh] md:h-[30rem] rounded-md flex items-center justify-center relative overflow-hidden">
           <InfiniteMovingCards
             items={testimonials}
             direction="right"
@@ -99,77 +99,56 @@ const Clients = () => {
       </div>
 
       {/* Team Section */}
-      <section id="team" className="pt-20 pb-8 py-20">
+      <section id="team" className="pt-20 pb-8">
         <h1 className="heading pt-10 pb-10">
           Meet Our
-          <span className="text-transparent bg-clip-text bg-gradient-to-r pt-0 from-orange-500 via-purple-500 to-pink-500 font-bold ml-2">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-purple-500 to-pink-500 font-bold ml-2">
             Team.
           </span>
         </h1>
 
-        {/* Horizontal Scroll for Team */}
+        {/* Team Grid */}
         <div
           style={{
-            display: "flex",
-            overflowX: "auto", // Enable horizontal scroll
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
             gap: "20px",
             padding: "20px",
-            justifyContent: "flex-start",
-            alignItems: "center",
-            flexWrap: "nowrap",
           }}
-          className="team-container"
         >
           {teamMembers.map((member, index) => (
             <div
               key={index}
-              className="team-card"
               style={{
                 display: "flex",
                 flexDirection: "column",
                 justifyContent: "center",
                 alignItems: "center",
-                width: "250px",
-                height: "250px",
                 backgroundColor: member.color,
                 padding: "20px",
                 borderRadius: "12px",
                 boxShadow: "0 2px 15px rgba(0, 0, 0, 0.1)",
                 textAlign: "center",
                 transition: "transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out",
-                flexShrink: 0, // Prevent shrinking of the cards
               }}
             >
-              {/* Name Container */}
               <div
                 style={{
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  height: "50px", // Uniform height for all names
                   fontSize: "1.25rem",
                   fontWeight: "500",
-                  color: "#FFD700", // Bright gold/yellow
+                  color: "#FFD700", // Bright gold
                   marginBottom: "10px",
-                  transition: "color 0.3s ease",
                 }}
               >
                 {member.name}
               </div>
-
-              {/* Role Container */}
               <div
                 style={{
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  height: "40px", // Uniform height for all roles
                   fontSize: "1.125rem",
                   fontWeight: "600",
-                  color: "#FFF5F5", // Very light with just a hint of warmth
+                  color: "#FFF5F5", // Light white with warmth
                   letterSpacing: "0.5px",
                   textShadow: "1px 1px 3px rgba(0, 0, 0, 0.2)",
-                  transition: "color 0.3s ease, text-shadow 0.3s ease",
                 }}
               >
                 {member.role}
